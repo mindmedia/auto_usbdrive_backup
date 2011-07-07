@@ -13,7 +13,7 @@ SOURCE_DIR="/home/hsneo/project/FilterScript_handphone"
 # to use readlink -e to determine the associated block device for the external hard drive.
 # The external hard drive shows up in /dev/disk/by-id with unique serial number
 # The associated block device is assigned to the destination device that is the external hard drive.
-readlink -e /dev/disk/by-id/usb-WD_My_Book_1140_5743415A4136393937383530  > $DESTINATION_DEVICE
+readlink -e /dev/disk/by-id/usb-WD_My_Book_1140_2843415A4136393937383532  > $DESTINATION_DEVICE
 
 # The values for DESTINATION_DIR and DESTINATION_BACKUPDIR are fixed
 DESTINATION_DIR="/media"
